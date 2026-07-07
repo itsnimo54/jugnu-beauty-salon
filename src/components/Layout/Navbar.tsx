@@ -51,7 +51,7 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Sparkles className="w-8 h-8 text-rose-gold-500" />
-            <span className="font-playfair text-xl sm:text-2xl font-semibold text-luxury-black dark:text-white">
+            <span className="font-playfair text-xl sm:text-2xl font-semibold text-white dark:text-white">
               Jugnu's <span className="text-rose-gold-500">Salon</span>
             </span>
           </Link>
@@ -65,7 +65,7 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
                 className={`relative px-4 py-2 text-sm font-montserrat uppercase tracking-wider transition-colors duration-300 ${
                   location.pathname === link.path
                     ? 'text-rose-gold-500'
-                    : 'text-luxury-black dark:text-white hover:text-rose-gold-500'
+                    : 'text-white dark:text-white hover:text-rose-gold-500'
                 }`}
               >
                 {link.name}
@@ -80,19 +80,8 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
           </div>
 
           {/* Right Actions */}
-          <div className="flex items-center space-x-4">
-            <button
-              onClick={toggleDark}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-            >
-              {isDark ? (
-                <Sun className="w-5 h-5 text-rose-gold-500" />
-              ) : (
-                <Moon className="w-5 h-5 text-luxury-black" />
-              )}
-            </button>
-
-            <Link
+          <div className="flex items-center space-x-4"> 
+           <Link
               to="/book"
               className="hidden md:inline-flex luxury-btn text-xs"
             >
