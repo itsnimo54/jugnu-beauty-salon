@@ -31,7 +31,7 @@ export default function HomePage() {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/7692412/pexels-photo-7692412.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.unsplash.com/photo-1633681926035-ec1ac984418a?q=80&w=1200&auto=format&fit=crop"
             alt="Beautiful bride in red bridal dress"
             className="w-full h-full object-cover"
           />
@@ -70,7 +70,7 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-6 py-2 rounded-full bg-white/10 backdrop-blur-sm text-rose-gold-400 text-sm font-montserrat uppercase tracking-widest mb-6">
-              Premium Beauty Salon in Jhelum
+              Jugnu's Salon Jhelum
             </span>
           </motion.div>
 
@@ -184,7 +184,7 @@ export default function HomePage() {
             >
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/32393906/pexels-photo-32393906.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBbfRD3WKb5bFtSeeXeJLmoKIIEHO7W2BYlBW63QQ1A&s=10"
                   alt="Jugnu's Salon Premium Interior"
                   className="w-full h-full object-cover"
                 />
@@ -301,10 +301,10 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: 'Bridal Makeup', image: 'https://images.pexels.com/photos/7945689/pexels-photo-7945689.jpeg?auto=compress&cs=tinysrgb&w=400' },
-              { title: 'Hair Services', image: 'https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400' },
-              { title: 'Skin Treatments', image: 'https://images.pexels.com/photos/8524706/pexels-photo-8524706.jpeg?auto=compress&cs=tinysrgb&w=400' },
-              { title: 'Nail Art', image: 'https://images.pexels.com/photos/1453448/pexels-photo-1453448.jpeg?auto=compress&cs=tinysrgb&w=400' },
+              { title: 'Bridal Makeup', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsI8tXcv1GLpXO-Q7dRVkYLe1gQ_wHsGJ5ryRp4KCVlqhGPG_0iQRrCJs&s=10' },
+              { title: 'Hair Services', image: 'https://www.newtimeshair.com/wp-content/uploads/2022/06/hair-treatment-service.png' },
+              { title: 'Skin Treatments', image: 'https://www.royalcosmeticsurgery.com.pk/wp-content/uploads/2023/10/Facial-Treatments-in-Islamabad-Rawalpindi-and-Pakistan.webp' },
+              { title: 'Nail Art', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5wYCpQRYo0Mw1FAol6Zrx3FtIn6-j_gksDtI4FBxYHA&s=10' },
             ].map((service, idx) => (
               <motion.div
                 key={service.title}
