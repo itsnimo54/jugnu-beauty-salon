@@ -109,7 +109,7 @@ export default function AboutPage() {
                   </div>
                   <div className="aspect-square rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCgUSPBMK9AO4Mh4IM9edv35FxSlQJZpU0JsIQ68-0Gg&s=10"
                       alt="Beauty Treatment"
                       className="w-full h-full object-cover"
                     />
@@ -118,14 +118,14 @@ export default function AboutPage() {
                 <div className="space-y-4 pt-8">
                   <div className="aspect-square rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5gRUhTywYx2J6jfrYCrc8hEkFvYsy2j0217qHo7ayvQ&s=10"
                       alt="Bridal Makeup"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="aspect-[3/4] rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcBH9eow3bSBHaQikLQt7PHAz3IOzeK6bj-xCPXgn5nQ&s=10"
                       alt="Hair Styling"
                       className="w-full h-full object-cover"
                     />
