@@ -9,24 +9,14 @@ const fadeIn = {
 
 const team = [
   {
-    name: 'Jugnu Khan',
+    name: 'Jugnu Wasim',
     role: 'Founder & Lead Stylist',
-    image: 'https://images.pexels.com/photos/3993291/pexels-photo-3993291.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzZ1TTPzyI6awZEuj6Iy_qzK4ARfAJk4uMr42sVA-7fvxyTs3KGXVNJQ&s=10',
   },
   {
-    name: 'Ayesha Malik',
+    name: 'Huma Waqar',
     role: 'Senior Makeup Artist',
-    image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-  },
-  {
-    name: 'Sana Ahmed',
-    role: 'Hair Specialist',
-    image: 'https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400',
-  },
-  {
-    name: 'Zara Hussain',
-    role: 'Skincare Expert',
-    image: 'https://images.pexels.com/photos/3764197/pexels-photo-3764197.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrIr-Soes59FlZdo-aFvofl_ZdXVVo84Il-WmVmDciXw&s=10',
   },
 ];
 
@@ -93,7 +83,7 @@ export default function AboutPage() {
                 Jugnu's Salon was founded in 2014 with a simple vision: to bring world-class beauty services to Jhelum. What started as a small makeup studio has grown into a full-service beauty destination, trusted by thousands of clients for their most important moments.
               </p>
               <p className="text-body mb-6">
-                Our founder, Jugnu Khan, brought her expertise and passion from international training to create a salon that combines traditional beauty techniques with modern innovations. Every service we offer reflects our commitment to quality, hygiene, and client satisfaction.
+                Our founder, Jugnu Wasim, brought her expertise and passion from international training to create a salon that combines traditional beauty techniques with modern innovations. Every service we offer reflects our commitment to quality, hygiene, and client satisfaction.
               </p>
               <p className="text-body">
                 Today, Jugnu's Salon stands as a testament to what dedication, skill, and a genuine love for beauty can achieve. We've had the privilege of being part of countless weddings, celebrations, and transformations – each one reinforcing our purpose.
@@ -112,14 +102,14 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="aspect-[3/4] rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.pexels.com/photos/3993425/pexels-photo-3993425.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="https://cdn-ilejcpo.nitrocdn.com/twVxkYyfgbiNtlCxbSgfagWHZXrhSvVX/assets/images/optimized/rev-6af5492/jugnusalon.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-07-23-at-20.15.07-scaled.jpeg"
                       alt="Salon Interior"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="aspect-square rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.pexels.com/photos/3757656/pexels-photo-3757656.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
                       alt="Beauty Treatment"
                       className="w-full h-full object-cover"
                     />
@@ -128,14 +118,14 @@ export default function AboutPage() {
                 <div className="space-y-4 pt-8">
                   <div className="aspect-square rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.pexels.com/photos/3013854/pexels-photo-3013854.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop"
                       alt="Bridal Makeup"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="aspect-[3/4] rounded-3xl overflow-hidden">
                     <img
-                      src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop"
                       alt="Hair Styling"
                       className="w-full h-full object-cover"
                     />
