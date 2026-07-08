@@ -28,7 +28,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Location',
-    value: 'Deen Arcade, Near Junaid Jamshed, Civil Lines, Jhelum',
+    value: 'Deen Arcade, Civil Line, near Junaid Jamshed, opp. Soldier Arcade, Naya Mohalla Jhelum, 49600',
     href: 'https://maps.google.com/?q=Jhelum+Civil+Lines',
   },
 ];
