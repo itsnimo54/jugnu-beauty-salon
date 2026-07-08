@@ -42,7 +42,7 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-white/90 dark:bg-luxury-black/90 backdrop-blur-xl shadow-lg'
+          ? 'bg-luxury-black/95 backdrop-blur-xl shadow-lg'
           : 'bg-transparent'
       }`}
     >
