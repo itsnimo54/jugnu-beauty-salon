@@ -162,7 +162,7 @@ export default function PricingPage() {
                   }`}
                 >
                   {/* Image */}
-                  <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-6">
+                  <div className="h-72 rounded-2xl overflow-hidden mb-6">
                     <img
                       src={plan.image}
                       alt={plan.name}
