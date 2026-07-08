@@ -19,40 +19,40 @@ const categories = [
 
 const galleryImages = [
   // Bridal
-  { id: 1, category: 'bridal', src: 'https://images.pexels.com/photos/3013854/pexels-photo-3013854.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 1', caption: 'Barat Bridal' },
-  { id: 2, category: 'bridal', src: 'https://images.pexels.com/photos/1967445/pexels-photo-1967445.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 2', caption: 'Nikah Bridal' },
-  { id: 3, category: 'bridal', src: 'https://images.pexels.com/photos/3013850/pexels-photo-3013850.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 3', caption: 'Mehndi Bridal' },
-  { id: 4, category: 'bridal', src: 'https://images.pexels.com/photos/3757141/pexels-photo-3757141.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 4', caption: 'Walima Bridal' },
-  { id: 5, category: 'bridal', src: 'https://images.pexels.com/photos/3757153/pexels-photo-3757153.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 5', caption: 'Bridal Portrait' },
-  { id: 6, category: 'bridal', src: 'https://images.pexels.com/photos/1447268/pexels-photo-1447268.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Bridal Makeup 6', caption: 'Traditional Bridal' },
+  { id: 1, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzuO61mCIWPDhMCGjA1qmtKhbnXTiq1NGD6cpS8u0SYQ&s=10', alt: 'Bridal Makeup 1', caption: 'Barat Bridal' },
+  { id: 2, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfHDTJ3akNvNLPWyHTKE4lqZbd3d_6LpNL6UpKqzj7Nw&s', alt: 'Bridal Makeup 2', caption: 'Nikah Bridal' },
+  { id: 3, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIkpmOQHpov01_Y2yOrrsUTSvuCVuif0hZ6z9E4vZPA&s=10', alt: 'Bridal Makeup 3', caption: 'Mehndi Bridal' },
+  { id: 4, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJ0S5g4hPw2Th0VCdDx2U5NH0FaLpIDSO7BQ6m_aHTA&s=10', alt: 'Bridal Makeup 4', caption: 'Walima Bridal' },
+  { id: 5, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7wmgrpK-nMLmqwd9lQWX1V5uWoEKqpCTQYHRMB4Mbg&s=10', alt: 'Bridal Makeup 5', caption: 'Bridal Portrait' },
+  { id: 6, category: 'bridal', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-DJeRbZ6DRh9RpkX60tg0lYBR_e4uOpzV1OUA9Ar2w&s=10', alt: 'Bridal Makeup 6', caption: 'Traditional Bridal' },
 
   // Makeup
-  { id: 7, category: 'makeup', src: 'https://images.pexels.com/photos/3993291/pexels-photo-3993291.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Party Makeup', caption: 'Party Glam' },
-  { id: 8, category: 'makeup', src: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Eye Makeup', caption: 'Eye Art' },
-  { id: 9, category: 'makeup', src: 'https://images.pexels.com/photos/2735485/pexels-photo-2735485.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Lash Extensions', caption: 'Lash Extensions' },
-  { id: 10, category: 'makeup', src: 'https://images.pexels.com/photos/3762454/pexels-photo-3762454.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Lip Makeup', caption: 'Lip Art' },
+  { id: 7, category: 'makeup', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIWqicgBqB-78tfElLUQIvc_rolIxoG16DmpOpHlRfg&s=10', alt: 'Party Makeup', caption: 'Party Glam' },
+  { id: 8, category: 'makeup', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRV3t9Wdt1IykSAw222-RUjXMc_wp43WAxnVsIajz6yA&s=10', alt: 'Eye Makeup', caption: 'Eye Art' },
+  { id: 9, category: 'makeup', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQuITO101PPFzW1cc-46F0gs97tGINRDnTU_BKgY6Cg&s=10', alt: 'Lash Extensions', caption: 'Lash Extensions' },
+  { id: 10, category: 'makeup', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTfZ5knes2qX953vlYXj0q2Wsql1uRdQ6SH1EN4hZsBg&s=10', alt: 'Lip Makeup', caption: 'Lip Art' },
 
   // Hair
-  { id: 11, category: 'hair', src: 'https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Hair Styling', caption: 'Bridal Hair Style' },
-  { id: 12, category: 'hair', src: 'https://images.pexels.com/photos/1528610/pexels-photo-1528610.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Hair Cut', caption: 'Modern Cut' },
-  { id: 13, category: 'hair', src: 'https://images.pexels.com/photos/1303943/pexels-photo-1303943.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Hair Color', caption: 'Hair Coloring' },
-  { id: 14, category: 'hair', src: 'https://images.pexels.com/photos/3993425/pexels-photo-3993425.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Hair Spa', caption: 'Hair Spa' },
-  { id: 15, category: 'hair', src: 'https://images.pexels.com/photos/3993295/pexels-photo-3993295.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Keratin', caption: 'Keratin Treatment' },
+  { id: 11, category: 'hair', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2twGB-1ja3nDCzlPW8QGC85KDXZk-DhH2FOV56AlvBQ&s=10', alt: 'Hair Styling', caption: 'Bridal Hair Style' },
+  { id: 12, category: 'hair', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSZ3BiKhraA4dWO7EKiajwphnJgE2iFcR2h2x3vypm_w&s=10', alt: 'Hair Cut', caption: 'Modern Cut' },
+  { id: 13, category: 'hair', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZScuYz66rqSuS8oStnNIG-8WVvxkNIPR9zS70t8C1Vw&s=10', alt: 'Hair Color', caption: 'Hair Coloring' },
+  { id: 14, category: 'hair', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3s1RLVEwqEJLhISmt8xudxhNSn8_AvoGngtED7Gbz9g&s=10', alt: 'Hair Spa', caption: 'Hair Spa' },
+  { id: 15, category: 'hair', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLkBAiGI-jl4M4SSbTk1Hb-IEF5nItKbMSQtxxW5KA&s=10', alt: 'Keratin', caption: 'Keratin Treatment' },
 
   // Nails
-  { id: 16, category: 'nails', src: 'https://images.pexels.com/photos/4502714/pexels-photo-4502714.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Nail Art 1', caption: 'French Nails' },
-  { id: 17, category: 'nails', src: 'https://images.pexels.com/photos/4500703/pexels-photo-4500703.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Nail Art 2', caption: 'Nail Art' },
-  { id: 18, category: 'nails', src: 'https://images.pexels.com/photos/4503127/pexels-photo-4503127.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Manicure', caption: 'Manicure' },
+  { id: 16, category: 'nails', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHRWVgZWAoFf5eFKv8cibFJIDwppDh5sIQdvODBm2FA&s=10', alt: 'Nail Art 1', caption: 'French Nails' },
+  { id: 17, category: 'nails', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7VdWI0i5iXXKolbHIwKqaFo5XcpRbpdiSSUbaP-Pfdw&s=10', alt: 'Nail Art 2', caption: 'Nail Art' },
+  { id: 18, category: 'nails', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TnwhBp9DTkbikxeSSOcQ0GXxuvd38OTTOm4eHmUC8g&s=10', alt: 'Manicure', caption: 'Manicure' },
 
   // Facials
-  { id: 19, category: 'facials', src: 'https://images.pexels.com/photos/3757656/pexels-photo-3757656.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Facial Treatment', caption: 'Facial Treatment' },
-  { id: 20, category: 'facials', src: 'https://images.pexels.com/photos/3764197/pexels-photo-3764197.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Skin Care', caption: 'Skin Care' },
-  { id: 21, category: 'facials', src: 'https://images.pexels.com/photos/3997994/pexels-photo-3997994.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Cleanup', caption: 'Deep Cleanup' },
+  { id: 19, category: 'facials', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTkTgX-TQPCw_7eUWcFUc8i4re5tMuWSGMep6F4rWDQ&s=10', alt: 'Facial Treatment', caption: 'Facial Treatment' },
+  { id: 20, category: 'facials', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFCxK6i8M10QPCKY0zNiYsI4jETQ0ukyFvukh6IIR-g&s=10', alt: 'Skin Care', caption: 'Skin Care' },
+  { id: 21, category: 'facials', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnBWw1ZH-W3nI1gcZ7LzGdTHfkt4BX2bD6QH7Dcqpmw&s=10', alt: 'Cleanup', caption: 'Deep Cleanup' },
 
   // Transformations
-  { id: 22, category: 'transformations', src: 'https://images.pexels.com/photos/3993425/pexels-photo-3993425.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Before After 1', caption: 'Full Makeover' },
-  { id: 23, category: 'transformations', src: 'https://images.pexels.com/photos/3765130/pexels-photo-3765130.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Before After 2', caption: 'Hair Transformation' },
-  { id: 24, category: 'transformations', src: 'https://images.pexels.com/photos/3993291/pexels-photo-3993291.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Before After 3', caption: 'Glam Transformation' },
+  { id: 22, category: 'transformations', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gPoYp4iBYqK4InIUaRdZBJslYXRWsEiibJrioRUAcQ&s=10', alt: 'Before After 1', caption: 'Full Makeover' },
+  { id: 23, category: 'transformations', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbEJ42eMkVu7woLtUkEqUYXtlUu0nRuVFxQdTBKhc9kQ&s=10', alt: 'Before After 2', caption: 'Hair Transformation' },
+  { id: 24, category: 'transformations', src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRry1RZ4JhPNtvR3JTU6l5aNyFthqT6K6Wf-W8XZPk80Q&s=10', alt: 'Before After 3', caption: 'Glam Transformation' },
 ];
 
 export default function GalleryPage() {
