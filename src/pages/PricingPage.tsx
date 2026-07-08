@@ -12,7 +12,7 @@ const pricingPlans = [
     name: 'Party Makeup',
     price: 'Rs. 6,000',
     icon: Star,
-    image: 'https://images.pexels.com/photos/3993291/pexels-photo-3993291.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhmgNpoESjzZBEzJXG44HRWHbXdo37bkbVwIpxmTEAA&s=10',
     features: [
       'HD Airbrush Makeup',
       'Eye Makeup',
@@ -27,7 +27,7 @@ const pricingPlans = [
     name: 'Nikah Bridal',
     price: 'Rs. 10,000',
     icon: Sparkles,
-    image: 'https://images.pexels.com/photos/1967445/pexels-photo-1967445.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTpmx1qbhMYxgMI88KhIYr_V11Z6BXydIebommYPWLlg&s=10',
     features: [
       'Premium HD Makeup',
       'Complete Hair Styling',
@@ -42,7 +42,7 @@ const pricingPlans = [
     name: 'Mehndi Bridal',
     price: 'Rs. 20,000',
     icon: Heart,
-    image: 'https://images.pexels.com/photos/3013850/pexels-photo-3013850.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX834N9lY97JcKP7bMY7lbCbxvsnILFuKuidaK6H77Sg&s=10',
     features: [
       'Vibrant Color Makeup',
       'Glitter & Shimmer Effects',
@@ -58,7 +58,7 @@ const pricingPlans = [
     name: 'Barat Bridal',
     price: 'Rs. 35,000+',
     icon: Crown,
-    image: 'https://images.pexels.com/photos/3013854/pexels-photo-3013854.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0CLTmdRtS8tkM12mi0r8uNYXInh_j7zNcso2vtof9rQ&s=10',
     features: [
       'Signature HD Makeup',
       'Complete Hair Makeover',
