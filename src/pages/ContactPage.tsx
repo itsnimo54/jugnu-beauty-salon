@@ -29,7 +29,7 @@ const contactInfo = [
     icon: MapPin,
     title: 'Location',
     value: 'Deen Arcade, Civil Line, near Junaid Jamshed, opp. Soldier Arcade, Naya Mohalla Jhelum, 49600',
-    href: 'https://maps.google.com/?q=Jhelum+Civil+Lines',
+    href: 'https://maps.google.com/maps?q=Deen+Arcade,+Civil+Line,+Jhelum&t=&z=15&ie=UTF8&iwloc=&output=embed',
   },
 ];
 
@@ -159,11 +159,11 @@ export default function ContactPage() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://maps.app.goo.gl/wJk6qT3mF6Gz7FvM9"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="luxury-btn-outline inline-flex"
-                >
+  href="https://maps.google.com/maps?q=Deen+Arcade,+Civil+Line,+Jhelum&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="luxury-btn-outline inline-flex"
+>
                   <Navigation className="w-4 h-4 mr-2" />
                   Get Directions
                 </a>
@@ -180,14 +180,14 @@ export default function ContactPage() {
             >
               <div className="h-full min-h-[400px] rounded-3xl overflow-hidden bg-gray-100 dark:bg-white/5">
                 <iframe
-                  title="Jugnu's Salon Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.355325516709!2d73.7258957!3d32.9416556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f91df57114b0b%3A0xcb13e00fcad6cbde!2sDeen%20Arcade!5e0!3m2!1sen!2spk!4v1716000000000!5m2!1sen!2spk"
-                  className="w-full h-full border-0"
-                  style={{ filter: 'grayscale(0.5)' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+  title="Jugnu's Salon Location"
+  src="https://maps.google.com/maps?q=Deen+Arcade,+Civil+Line,+Jhelum&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  className="w-full h-full border-0"
+  style={{ filter: 'grayscale(0.5)' }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
               </div>
             </motion.div>
           </div>
