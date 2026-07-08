@@ -13,7 +13,7 @@ const bridalServices = [
     title: 'Nikah Bridal',
     subtitle: 'Elegant & Traditional',
     icon: Sparkles,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9GbCzNu69nmP9V_wSyrHqNN18IdMFIVE9E4WWqFP2Kw&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-DJeRbZ6DRh9RpkX60tg0lYBR_e4uOpzV1OUA9Ar2w&s=10',
     description: 'Celebrate your Nikah ceremony with an elegant and sophisticated look. Our traditional bridal makeup enhances your natural beauty while respecting cultural elegance. We focus on soft, dewy skin, subtle contouring, and delicate eye makeup that photographs beautifully.',
     features: ['Traditional Elegant Look', 'Soft Dewy Skin', 'Subtle Contouring', 'Delicate Eye Makeup', 'Premium Products', 'HD Airbrush Makeup'],
     price: 'Rs. 10,000',
